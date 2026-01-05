@@ -1,0 +1,17 @@
+name = "ai-travel-planner"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]  # updated
+
+# Workers AI binding
+[ai]
+binding = "AI"
+
+# Durable Objects
+[[durable_objects.bindings]]
+name = "CONVERSATIONS"
+class_name = "Conversation"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Conversation"]
