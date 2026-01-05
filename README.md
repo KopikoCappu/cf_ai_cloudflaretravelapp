@@ -108,7 +108,7 @@ MIT
 
 ## 👤 Author
 
-Your Name - [Minh Tran](https://github.com/KopikoCappu)
+Minh Tran](https://github.com/KopikoCappu)
 
 ## 🙏 Acknowledgments
 
